@@ -12,6 +12,6 @@ public class Child extends Parent {
         System.out.println(super.protectedLastName);
         System.out.println(super.publicName);
         System.out.println(super.packagePrivateFatherName);
-        System.out.println(super.privateAge);
+        // System.out.println(super.privateAge); -- error
     }
 }

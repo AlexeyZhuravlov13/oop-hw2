@@ -9,7 +9,7 @@ public class ProtectedModifierTest extends Parent {
 
         System.out.println(protectedModifierTest.protectedLastName);
         System.out.println(protectedModifierTest.publicName);
-        System.out.println(protectedModifierTest.packagePrivateFatherName);
-        System.out.println(protectedModifierTest.privateAge);
+        // System.out.println(protectedModifierTest.packagePrivateFatherName); - error
+        // System.out.println(protectedModifierTest.privateAge); - error
     }
 }
